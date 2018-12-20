@@ -39,7 +39,7 @@ The script is flexible in that it doesn't assume when/how you are checking if an
 const elementToTrack = document.querySelctor('.element');
 
 window.addEventListener('scroll', function(){
-    let inView = elementInView(elementToTrack, 'middle'));
+    let inView = elementInView(elementToTrack, 'middle');
     console.log(inView) // true/false
 });
 ```
