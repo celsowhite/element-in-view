@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Element In View</title>
+        <link href="./demo.css" rel="stylesheet" type="text/css" media="all" />
+    </head>
+
+    <body>
+        
+        <div class="section" id="section-one" style="background-color: #c95454">
+            <div class="square"></div>
+        </div>
+
+        <div class="section" id="section-two" style="background-color: #3cc497">
+            <div class="square"></div>
+        </div>
+
+        <div class="section" id="section-three" style="background-color: #4b9cd3">
+            <div class="square"></div>
+        </div>
+
+        <div class="section" id="section-four" style="background-color: #8acc9e">
+            <div class="square"></div>
+        </div>
+
+        <div class="section" id="section-five" style="background-color: #d8e0b2">
+            <div class="square"></div>
+        </div>
+
+        <!-- Library (Universal but via npm package will be es6) -->
+
+        <script src="../dist/element-in-view.umd.js"></script>
+
+        <!-- Init Script -->
+
+        <script>
+                        
+            var sectionTwo = document.querySelector('#section-two');
+            var sectionThree = document.querySelector('#section-three');
+            var sectionFourSquare = document.querySelector('#section-four .square');
+
+            window.addEventListener('scroll', function(){
+
+                if(elementInView(sectionFourSquare, 'middle')) {
+                    console.log('In View');
+                }
+
+            });
+
+        </script>
+
+    </body>
+
+</html>
