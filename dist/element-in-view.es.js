@@ -1,2 +1,2 @@
-export default function(t,e){void 0===e&&(e="top");var o=window.innerHeight,i=t.getBoundingClientRect().top,n=t.offsetHeight,r=i+n/2,d=i+n;return!!(("top"===e.toLowerCase()?i:"middle"===e.toLowerCase()?r:"bottom"===e.toLowerCase()?d:i)<=o&&d>=0)}
+export default function(o,t,e){void 0===t&&(t="top"),void 0===e&&(e=0);var i=window.innerHeight,n=o.getBoundingClientRect().top,r=o.offsetHeight,d=n+r/2,a=n+r;return!!(("top"===t.toLowerCase()?n:"middle"===t.toLowerCase()?d:"bottom"===t.toLowerCase()?a:n)+i*(e/100)<=i&&a>=0)}
 //# sourceMappingURL=element-in-view.es.js.map

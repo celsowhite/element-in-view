@@ -1,2 +1,2 @@
-module.exports=function(o,e){void 0===e&&(e="top");var t=window.innerHeight,i=o.getBoundingClientRect().top,n=o.offsetHeight,r=i+n/2,d=i+n;return!!(("top"===e.toLowerCase()?i:"middle"===e.toLowerCase()?r:"bottom"===e.toLowerCase()?d:i)<=t&&d>=0)};
+module.exports=function(o,e,t){void 0===e&&(e="top"),void 0===t&&(t=0);var i=window.innerHeight,n=o.getBoundingClientRect().top,r=o.offsetHeight,d=n+r/2,s=n+r;return!!(("top"===e.toLowerCase()?n:"middle"===e.toLowerCase()?d:"bottom"===e.toLowerCase()?s:n)+i*(t/100)<=i&&s>=0)};
 //# sourceMappingURL=element-in-view.js.map

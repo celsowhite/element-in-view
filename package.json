@@ -1,33 +1,33 @@
 {
-  "name": "@celsowhite/element-in-view",
-  "version": "1.0.0",
-  "description": "Detect when an element is visible in the browsers viewport.",
-  "source": "src/element-in-view.js",
-  "module": "dist/element-in-view.es.js",
-  "main": "dist/element-in-view.js",
-  "umd:main": "dist/element-in-view.umd.js",
-  "scripts": {
-    "build": "microbundle build",
-    "watch": "microbundle watch --compress false",
-    "publish": "npm publish --access public"
-  },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "scroll"
-  ],
-  "homepage": "https://github.com/celsowhite/element-in-view#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/celsowhite/element-in-view.git"
-  },
-  "bugs": {
-    "url": "https://github.com/celsowhite/element-in-view/issues"
-  },
-  "author": "Celso White",
-  "license": "MIT",
-  "devDependencies": {
-    "microbundle": "^0.8.3"
-  }
+	"name": "@celsowhite/element-in-view",
+	"version": "1.0.1",
+	"description": "Detect when an element is visible in the browsers viewport.",
+	"source": "src/element-in-view.js",
+	"module": "dist/element-in-view.es.js",
+	"main": "dist/element-in-view.js",
+	"umd:main": "dist/element-in-view.umd.js",
+	"scripts": {
+		"build": "microbundle build",
+		"watch": "microbundle watch --compress false",
+		"publish": "npm publish --access public"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"scroll"
+	],
+	"homepage": "https://github.com/celsowhite/element-in-view#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/celsowhite/element-in-view.git"
+	},
+	"bugs": {
+		"url": "https://github.com/celsowhite/element-in-view/issues"
+	},
+	"author": "Celso White",
+	"license": "MIT",
+	"devDependencies": {
+		"microbundle": "^0.8.3"
+	}
 }
